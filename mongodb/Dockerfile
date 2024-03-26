@@ -1,2 +1,2 @@
-FROM Mongo:5
+FROM mongo:5
 COPY *.js /docker-entrypoint-initdb.d/
