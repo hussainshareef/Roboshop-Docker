@@ -4,7 +4,7 @@ EXPOSE 8080
 
 WORKDIR /opt/server
 
-ENV mongo=ture
+ENV mongo=true
 
 COPY package.json /opt/server/
 
